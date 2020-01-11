@@ -59,7 +59,7 @@ while game_running:
 # Check for events
   x = nextMonteCarlo()
  # pygame.draw.circle(GAME_WINDOW, COLOR_BLACK_A10, (int(x), 180), r)
-  GAME_WINDOW.blit(dot, (int(x),180))    # (0,0) are the top-left coordinates
+  GAME_WINDOW.blit(dot, (int(x),int(HEIGHT/2)))    # (0,0) are the top-left coordinates
 
   display.update()
 
